@@ -16,6 +16,8 @@
 		E1B1987E1EC4D5B40035F5CD /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1987D1EC4D5B40035F5CD /* TestUITests.swift */; };
 		E1B198911EC4D5FF0035F5CD /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B198901EC4D5FF0035F5CD /* Computer.swift */; };
 		E1B198931EC4D6160035F5CD /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B198921EC4D6160035F5CD /* ModelController.swift */; };
+		E1F098471EC50AEC00848CBA /* ComputerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F098461EC50AEC00848CBA /* ComputerDataSource.swift */; };
+		E1F0984A1EC50D8100848CBA /* ComputerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F098491EC50D8100848CBA /* ComputerCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E1B1987F1EC4D5B40035F5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1B198901EC4D5FF0035F5CD /* Computer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
 		E1B198921EC4D6160035F5CD /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		E1F098461EC50AEC00848CBA /* ComputerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerDataSource.swift; sourceTree = "<group>"; };
+		E1F098491EC50D8100848CBA /* ComputerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		E1B1985C1EC4D5B40035F5CD /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				E1F098451EC50ACC00848CBA /* Data sources */,
 				E1B1988F1EC4D5E60035F5CD /* Views */,
 				E1B1988E1EC4D5E30035F5CD /* Models */,
 				E1B1988D1EC4D5DF0035F5CD /* Controllers */,
@@ -167,8 +172,25 @@
 		E1B1988F1EC4D5E60035F5CD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E1F098481EC50D4000848CBA /* CollectionViewCells */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		E1F098451EC50ACC00848CBA /* Data sources */ = {
+			isa = PBXGroup;
+			children = (
+				E1F098461EC50AEC00848CBA /* ComputerDataSource.swift */,
+			);
+			name = "Data sources";
+			sourceTree = "<group>";
+		};
+		E1F098481EC50D4000848CBA /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E1F098491EC50D8100848CBA /* ComputerCollectionViewCell.swift */,
+			);
+			name = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,9 +327,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F0984A1EC50D8100848CBA /* ComputerCollectionViewCell.swift in Sources */,
 				E1B198911EC4D5FF0035F5CD /* Computer.swift in Sources */,
 				E1B198931EC4D6160035F5CD /* ModelController.swift in Sources */,
 				E1B198601EC4D5B40035F5CD /* ViewController.swift in Sources */,
+				E1F098471EC50AEC00848CBA /* ComputerDataSource.swift in Sources */,
 				E1B1985E1EC4D5B40035F5CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -555,6 +579,7 @@
 				E1B198841EC4D5B40035F5CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1B198851EC4D5B40035F5CD /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +588,7 @@
 				E1B198871EC4D5B40035F5CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1B198881EC4D5B40035F5CD /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +597,7 @@
 				E1B1988A1EC4D5B40035F5CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

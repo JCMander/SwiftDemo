@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Test/Test/ViewController.swift"
-            timestampString = "516216898.347933"
+            timestampString = "516231946.946115"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -25,13 +25,13 @@
                   symbolName = "Test.ViewController.viewDidLoad () -&gt; ()"
                   moduleName = "Test"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jordanmander/Desktop/Test/Test/ViewController.swift"
-                  timestampString = "516216912.719125"
+                  urlString = "file:///Users/jordanmander/Desktop/SwiftDemo/Test/Test/ViewController.swift"
+                  timestampString = "516232155.709531"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "401">
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "516">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -40,15 +40,31 @@
                   symbolName = "Test.ViewController.(viewDidLoad () -&gt; ()).(closure #1)"
                   moduleName = "Test"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jordanmander/Desktop/Test/Test/ViewController.swift"
-                  timestampString = "516216912.721054"
+                  urlString = "file:///Users/jordanmander/Desktop/SwiftDemo/Test/Test/ViewController.swift"
+                  timestampString = "516232155.711035"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "16">
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "206">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Test/Test/ViewController.swift"
+            timestampString = "516231998.653979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getModelController()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
